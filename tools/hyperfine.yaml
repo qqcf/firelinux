@@ -1,0 +1,19 @@
+id: hyperfine
+name: hyperfine
+alias: hyperfine
+type: binary
+description: "A command-line benchmarking tool with statistical analysis and warmup runs"
+tags: [benchmark, development, performance]
+github: sharkdp/hyperfine
+homepage: https://github.com/sharkdp/hyperfine
+binary_name: hyperfine
+arch_map:
+  amd64:
+    asset_pattern: "x86_64-unknown-linux-musl.tar.gz"
+    binary_path: "hyperfine"
+  arm64:
+    asset_pattern: "aarch64-unknown-linux-gnu.tar.gz"
+    binary_path: "hyperfine"
+  armv7:
+    asset_pattern: "arm-unknown-linux-gnueabihf.tar.gz"
+    binary_path: "hyperfine"

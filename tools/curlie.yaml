@@ -1,0 +1,19 @@
+id: curlie
+name: curlie
+alias: curlie
+type: binary
+description: "The power of curl, the ease of use of httpie — frontend to curl with cleaner output"
+tags: [network, http, development]
+github: rs/curlie
+homepage: https://github.com/rs/curlie
+binary_name: curlie
+arch_map:
+  amd64:
+    asset_pattern: "linux_amd64.tar.gz"
+    binary_path: "curlie"
+  arm64:
+    asset_pattern: "linux_arm64.tar.gz"
+    binary_path: "curlie"
+  armv7:
+    asset_pattern: "linux_armv7.tar.gz"
+    binary_path: "curlie"

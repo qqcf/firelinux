@@ -1,0 +1,19 @@
+id: fd
+name: fd
+alias: fd
+type: binary
+description: "A simple, fast and user-friendly alternative to 'find'"
+tags: [search, file, find, development]
+github: sharkdp/fd
+homepage: https://github.com/sharkdp/fd
+binary_name: fd
+arch_map:
+  amd64:
+    asset_pattern: "x86_64-unknown-linux-musl.tar.gz"
+    binary_path: "fd"
+  arm64:
+    asset_pattern: "aarch64-unknown-linux-gnu.tar.gz"
+    binary_path: "fd"
+  armv7:
+    asset_pattern: "arm-unknown-linux-gnueabihf.tar.gz"
+    binary_path: "fd"

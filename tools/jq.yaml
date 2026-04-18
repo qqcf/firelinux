@@ -1,0 +1,18 @@
+id: jq
+name: jq
+alias: jq
+type: binary
+description: "Lightweight and flexible command-line JSON processor"
+tags: [json, text, development, filter]
+github: jqlang/jq
+homepage: https://jqlang.github.io/jq
+binary_name: jq
+arch_map:
+  amd64:
+    asset_pattern: "jq-linux-amd64"
+    binary_path: ""
+    is_single_binary: true
+  arm64:
+    asset_pattern: "jq-linux-arm64"
+    binary_path: ""
+    is_single_binary: true

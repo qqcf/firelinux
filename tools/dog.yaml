@@ -1,0 +1,16 @@
+id: dog
+name: dog
+alias: dog
+type: binary
+description: "Command-line DNS client with colorful output, support for DoH and DoT"
+tags: [network, dns, development]
+github: ogham/dog
+homepage: https://github.com/ogham/dog
+binary_name: dog
+arch_map:
+  amd64:
+    asset_pattern: "x86_64-unknown-linux-gnu.zip"
+    binary_path: "bin/dog"
+  arm64:
+    asset_pattern: "aarch64-unknown-linux-gnu.zip"
+    binary_path: "bin/dog"

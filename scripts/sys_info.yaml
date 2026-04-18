@@ -1,0 +1,12 @@
+id: sys_info
+name: sys_info
+type: script
+interpreter: bash
+description: "Comprehensive system information report: CPU, memory, disk, network, OS details"
+tags: [system, info, monitoring]
+author: firelinux
+homepage: "https://github.com/firelinux/scripts"
+source_url: "https://github.com/firelinux/scripts/blob/main/sys_info.sh"
+raw_url: "https://raw.githubusercontent.com/firelinux/scripts/main/sys_info.sh"
+script_file: sys_info.sh
+dependencies: []

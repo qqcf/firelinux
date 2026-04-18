@@ -1,0 +1,19 @@
+id: ripgrep
+name: ripgrep
+alias: rg
+type: binary
+description: "Recursively searches directories for a regex pattern, with gitignore support and blazing speed"
+tags: [search, text, grep, development]
+github: BurntSushi/ripgrep
+homepage: https://github.com/BurntSushi/ripgrep
+binary_name: rg
+arch_map:
+  amd64:
+    asset_pattern: "x86_64-unknown-linux-musl.tar.gz"
+    binary_path: "rg"
+  arm64:
+    asset_pattern: "aarch64-unknown-linux-gnu.tar.gz"
+    binary_path: "rg"
+  armv7:
+    asset_pattern: "armv7-unknown-linux-gnueabihf.tar.gz"
+    binary_path: "rg"

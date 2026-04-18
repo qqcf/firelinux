@@ -1,0 +1,12 @@
+id: clean_logs
+name: clean_logs
+type: script
+interpreter: bash
+description: "Safely clean up old log files older than N days, with dry-run support"
+tags: [system, maintenance, disk]
+author: firelinux
+homepage: "https://github.com/firelinux/scripts"
+source_url: "https://github.com/firelinux/scripts/blob/main/clean_logs.sh"
+raw_url: "https://raw.githubusercontent.com/firelinux/scripts/main/clean_logs.sh"
+script_file: clean_logs.sh
+dependencies: []

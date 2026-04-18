@@ -1,0 +1,16 @@
+id: delta
+name: delta
+alias: delta
+type: binary
+description: "A syntax-highlighting pager for git, diff, and grep output"
+tags: [git, development, diff, view]
+github: dandavison/delta
+homepage: https://github.com/dandavison/delta
+binary_name: delta
+arch_map:
+  amd64:
+    asset_pattern: "x86_64-unknown-linux-musl.tar.gz"
+    binary_path: "delta"
+  arm64:
+    asset_pattern: "aarch64-unknown-linux-gnu.tar.gz"
+    binary_path: "delta"

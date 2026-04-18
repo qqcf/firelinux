@@ -1,0 +1,19 @@
+id: bat
+name: bat
+alias: bat
+type: binary
+description: "A cat clone with syntax highlighting, Git integration and automatic paging"
+tags: [view, text, development, cat]
+github: sharkdp/bat
+homepage: https://github.com/sharkdp/bat
+binary_name: bat
+arch_map:
+  amd64:
+    asset_pattern: "x86_64-unknown-linux-musl.tar.gz"
+    binary_path: "bat"
+  arm64:
+    asset_pattern: "aarch64-unknown-linux-gnu.tar.gz"
+    binary_path: "bat"
+  armv7:
+    asset_pattern: "arm-unknown-linux-gnueabihf.tar.gz"
+    binary_path: "bat"
