@@ -1,0 +1,19 @@
+id: gdb
+name: GDB
+alias: gdb
+type: binary
+description: "GNU debugger — attach to running processes, set breakpoints, inspect memory and registers"
+tags: [debug, development, reverse]
+github: guyush1/gdb-static
+homepage: https://www.gnu.org/software/gdb/
+binary_name: gdb
+arch_map:
+  amd64:
+    asset_pattern: "gdb-static-slim-x86_64.tar.gz"
+    binary_path: "gdb"
+  arm64:
+    asset_pattern: "gdb-static-slim-aarch64.tar.gz"
+    binary_path: "gdb"
+  armv7:
+    asset_pattern: "gdb-static-slim-arm.tar.gz"
+    binary_path: "gdb"

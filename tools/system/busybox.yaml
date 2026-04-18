@@ -1,0 +1,18 @@
+id: busybox
+name: BusyBox
+alias: busybox
+type: binary
+description: "Swiss army knife of embedded Linux — 300+ Unix utilities in a single binary (sh, wget, vi, telnetd, httpd, crond...)"
+tags: [system, utils, embedded, shell]
+homepage: https://busybox.net
+binary_name: busybox
+arch_map:
+  amd64:
+    url: "https://raw.githubusercontent.com/ryanwoodsmall/static-binaries/master/x86_64/busybox"
+    is_single_binary: true
+  arm64:
+    url: "https://raw.githubusercontent.com/ryanwoodsmall/static-binaries/master/aarch64/busybox"
+    is_single_binary: true
+  armv7:
+    url: "https://raw.githubusercontent.com/ryanwoodsmall/static-binaries/master/armhf/busybox"
+    is_single_binary: true

@@ -1,0 +1,18 @@
+id: rsync
+name: rsync
+alias: rsync
+type: binary
+description: "Fast, versatile file copying and synchronization — local or remote via SSH"
+tags: [network, file, sync, transfer]
+homepage: https://rsync.samba.org
+binary_name: rsync
+arch_map:
+  amd64:
+    url: "https://raw.githubusercontent.com/ryanwoodsmall/static-binaries/master/x86_64/rsync"
+    is_single_binary: true
+  arm64:
+    url: "https://raw.githubusercontent.com/ryanwoodsmall/static-binaries/master/aarch64/rsync"
+    is_single_binary: true
+  armv7:
+    url: "https://raw.githubusercontent.com/ryanwoodsmall/static-binaries/master/armhf/rsync"
+    is_single_binary: true

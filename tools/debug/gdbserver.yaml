@@ -1,0 +1,19 @@
+id: gdbserver
+name: gdbserver
+alias: gdbserver
+type: binary
+description: "Remote GDB debugging server — run on target, connect from host with gdb -ex 'target remote HOST:PORT'"
+tags: [debug, development, reverse]
+github: guyush1/gdb-static
+homepage: https://www.gnu.org/software/gdb/
+binary_name: gdbserver
+arch_map:
+  amd64:
+    asset_pattern: "gdb-static-slim-x86_64.tar.gz"
+    binary_path: "gdbserver"
+  arm64:
+    asset_pattern: "gdb-static-slim-aarch64.tar.gz"
+    binary_path: "gdbserver"
+  armv7:
+    asset_pattern: "gdb-static-slim-arm.tar.gz"
+    binary_path: "gdbserver"

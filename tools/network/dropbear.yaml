@@ -1,0 +1,16 @@
+id: dropbear
+name: Dropbear
+alias: dropbear
+type: binary
+description: "Lightweight SSH server and client — ideal for embedded and resource-constrained systems"
+tags: [network, ssh, server, embedded]
+github: sagemathinc/dropbear
+homepage: https://matt.ucc.asn.au/dropbear/dropbear.html
+binary_name: dropbear
+arch_map:
+  amd64:
+    asset_pattern: "dropbear-x86_64-linux-musl.tar.xz"
+    binary_path: "dropbear"
+  arm64:
+    asset_pattern: "dropbear-aarch64-linux-musl.tar.xz"
+    binary_path: "dropbear"

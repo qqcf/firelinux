@@ -1,0 +1,19 @@
+id: strings
+name: strings
+alias: strings
+type: binary
+description: "Extract printable strings from binary files — useful for quick binary analysis"
+tags: [debug, development, binutils, reverse]
+github: guyush1/gdb-static
+homepage: https://www.gnu.org/software/binutils/
+binary_name: strings
+arch_map:
+  amd64:
+    asset_pattern: "gdb-static-slim-x86_64.tar.gz"
+    binary_path: "strings"
+  arm64:
+    asset_pattern: "gdb-static-slim-aarch64.tar.gz"
+    binary_path: "strings"
+  armv7:
+    asset_pattern: "gdb-static-slim-arm.tar.gz"
+    binary_path: "strings"

@@ -1,0 +1,19 @@
+id: objdump
+name: objdump
+alias: objdump
+type: binary
+description: "Display information from object files — disassemble, dump section headers, symbol tables"
+tags: [debug, development, binutils, reverse]
+github: guyush1/gdb-static
+homepage: https://www.gnu.org/software/binutils/
+binary_name: objdump
+arch_map:
+  amd64:
+    asset_pattern: "gdb-static-slim-x86_64.tar.gz"
+    binary_path: "objdump"
+  arm64:
+    asset_pattern: "gdb-static-slim-aarch64.tar.gz"
+    binary_path: "objdump"
+  armv7:
+    asset_pattern: "gdb-static-slim-arm.tar.gz"
+    binary_path: "objdump"
