@@ -1,0 +1,12 @@
+id: nmap-static
+name: nmap (static)
+alias: nmap
+type: binary
+description: "Network exploration tool and security scanner — statically linked, no dependencies"
+tags: [network, security, scan]
+homepage: https://nmap.org
+binary_name: nmap
+arch_map:
+  amd64:
+    url: "https://github.com/andrew-d/static-binaries/raw/master/binaries/linux/x86_64/nmap"
+    is_single_binary: true
