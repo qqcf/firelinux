@@ -2,9 +2,23 @@
 
 Public tool registry for [firelinux.com](https://firelinux.com) — one-command Linux binary installer.
 
+## Directory structure
+
+```
+tools/
+  search/       # ripgrep, fd, …
+  text/         # bat, delta, jq, …
+  network/      # curlie, dog, …
+  system/       # dufs, hyperfine, …
+scripts/
+  system/       # sys_info, clean_logs, …
+```
+
+New categories can be added freely — just create a subdirectory.
+
 ## Adding a tool
 
-Submit a PR adding a YAML file to `tools/` or `scripts/`.
+Submit a PR adding a YAML file under the appropriate `tools/<category>/` directory.
 
 ### Binary tool schema (`tools/<id>.yaml`)
 
