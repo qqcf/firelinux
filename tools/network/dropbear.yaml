@@ -1,5 +1,5 @@
 id: dropbear
-name: Dropbear
+name: dropbear
 alias: dropbear
 type: binary
 description: "Lightweight SSH server and client — ideal for embedded and resource-constrained systems"

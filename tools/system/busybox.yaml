@@ -1,5 +1,5 @@
 id: busybox
-name: BusyBox
+name: busybox
 alias: busybox
 type: binary
 description: "Swiss army knife of embedded Linux — 300+ Unix utilities in a single binary (sh, wget, vi, telnetd, httpd, crond...)"

@@ -1,5 +1,5 @@
 id: nmap-static
-name: nmap (static)
+name: nmap-static
 alias: nmap
 type: binary
 description: "Network exploration tool and security scanner — statically linked, no dependencies"

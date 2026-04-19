@@ -1,5 +1,5 @@
 id: gdb
-name: GDB
+name: gdb
 alias: gdb
 type: binary
 description: "GNU debugger — attach to running processes, set breakpoints, inspect memory and registers"
