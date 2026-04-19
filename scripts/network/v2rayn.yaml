@@ -1,0 +1,10 @@
+id: v2rayn
+name: v2rayn
+type: script
+interpreter: bash
+description: "v2rayN — GUI proxy client for Linux supporting Xray, sing-box, and mihomo cores (VMess, VLESS, Shadowsocks, Trojan, etc.)"
+tags: [network, proxy, vpn, tunnel]
+github: 2dust/v2rayN
+homepage: https://github.com/2dust/v2rayN
+raw_url: "https://raw.githubusercontent.com/qqcf/firelinux/main/scripts/install/v2rayn-install.sh"
+dependencies: [curl, unzip]
